@@ -7,7 +7,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # every 6 hours
+    - cron: '0 0 1 * *' # 每月1號的0時0分執行
   workflow_dispatch:
 
 jobs:
